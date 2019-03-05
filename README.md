@@ -9,6 +9,9 @@ This program finds the biggest square in a map and displays this square with 'x'
 
 Usage: ./bsq [map]
 
+You can find examples for maps in the folder maps/mouli_maps.
+Resolved maps for folder maps/mouli_maps are in maps/mouli_maps_solved.
+
 
 Map restrictions:
 
