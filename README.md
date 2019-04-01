@@ -22,4 +22,26 @@ Map restrictions:
 
 Known Bugs:
 
-- Timeout with big empty maps (soonly resolved)
+- Long Time for BIG MAPS and BIG EMPTY MAPS
+
+Update Log:
+
+April 1st, 2019 :
+- Divided by 2 the execution time for empty maps
+- Added a bash-tester
+
+March 5th, 2019 :
+- Original commit of the project
+
+
+
+How to use the BSQ_tester ?
+
+Just type ./BSQ_tester [name of the map]
+
+
+Notes:
+
+The compilation is automatic
+The result is stored in BSQ.result
+You don't have to write the full path of the map, the name is enough
