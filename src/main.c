@@ -9,6 +9,7 @@
 #include <unistd.h>
 #include <fcntl.h>
 #include <sys/stat.h>
+#include <stdio.h>
 #include "function.h"
 #include "struct.h"
 
@@ -30,7 +31,7 @@ void init_struct(struct_t *structure)
     structure->act_y = 0;
     structure->max_x = 0;
     structure->max_y = 0;
-    structure->offset = 0;
+    structure->offset = 1;
     structure->max_offset = 0;
 }
 

@@ -71,7 +71,8 @@ void is_a_dot(struct_t *structure)
 void find_square(struct_t *structure)
 {
     while (structure->tab[structure->act_y] != NULL) {
-        if (structure->tab[structure->act_y][structure->act_x] == '\0') {
+        if (structure->tab[structure->act_y][structure->act_x] == '\0' ||
+        structure->act_x + structure->offset >= structure->column) {
             structure->act_x = 0;
             structure->act_y++;
         } else if (structure->tab[structure->act_y][structure->act_x] == '.') {
