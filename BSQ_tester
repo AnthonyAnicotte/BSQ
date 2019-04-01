@@ -1,0 +1,5 @@
+#! /bin/bash
+
+make re
+time ./bsq maps/mouli_maps/$1 > BSQ.result
+diff BSQ.result maps/mouli_maps_solved/$1
