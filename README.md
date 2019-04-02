@@ -26,6 +26,9 @@ Known Bugs:
 
 Update Log:
 
+April 3rd, 2019 :
+- Increased by 99% the speed for empty maps
+
 April 1st, 2019 :
 - Divided by 2 the execution time for empty maps
 - Added a bash-tester
