@@ -72,7 +72,8 @@ void find_square(struct_t *structure)
 {
     while (structure->tab[structure->act_y] != NULL) {
         if (structure->tab[structure->act_y][structure->act_x] == '\0' ||
-        structure->act_x + structure->offset >= structure->column) {
+            structure->act_x + structure->offset >= structure->column ||
+            structure->act_y + structure->offset >= structure->line) {
             structure->act_x = 0;
             structure->act_y++;
         } else if (structure->tab[structure->act_y][structure->act_x] == '.') {
